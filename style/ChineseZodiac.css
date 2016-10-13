@@ -1,0 +1,273 @@
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+a.header {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    top: 10px;
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
+
+div.navigation {
+    position: relative;
+    text-align: center;
+    margin-top: 20px;
+}
+
+hr {
+    position: relative;
+    width: 100%;
+    background-color: white;
+}
+
+.content, .footer {
+    margin-top: 50px;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+}
+
+div.zodiacs {
+    text-align: center;
+
+    margin-top: 30px;
+}
+
+div.sign-image {
+    text-align: left;
+    margin-left: 11px;
+    margin-top: 10px;
+}
+
+form {
+    margin: auto;
+    width: 80%;
+    height: 430px;
+    font-size: 14px;
+    line-height: 24px;
+    border-radius: 8px;
+    padding: 10px;
+    border: 2px solid #999;
+    background-color: #444444;
+    margin-top: 50px;
+}
+
+table {
+    border-spacing: 10px;
+}
+
+#frmtitle {
+    text-align: center;
+}
+
+th {
+    text-align: right;
+}
+
+#puttop {
+    vertical-align: top;
+}
+
+input#name, #email {
+    width: 100%;
+    border: 1px solid #999;
+    height: 25px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+textarea {
+    resize: none;
+    border-radius: 20px;
+    border: 1px solid #999;
+    font-size: 14px;
+}
+
+.button {
+    width: 80px;
+    height: 30px;
+    background-color: #a9a9a9;
+    color: black;
+    font-size: 18px;
+    border-radius: 8px;
+    margin-left: 40px;
+}
+
+#spacing {
+    margin-left: 100px;
+}
+
+input.button:hover {
+  background: #fff;
+  color: #111;
+  cursor: pointer;
+}
+
+
+a {
+    color: white;
+}
+
+.rat {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    height:100px;
+    display: inline-block;
+    background:transparent url('../Images/rat.png') center top no-repeat;
+}
+
+.rat:hover {
+   background-image: url('../Images/rat2.png');
+}
+
+.ox {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    height:100px;
+    display: inline-block;
+    background:transparent url('../images/ox.png') center top no-repeat;
+}
+
+.ox:hover {
+   background-image: url('../images/ox2.png');
+}
+
+.tiger {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    height:100px;
+    display: inline-block;
+    background:transparent url('../images/tiger.png') center top no-repeat;
+}
+
+.tiger:hover {
+   background-image: url('../images/tiger2.png');
+}
+
+.rabbit {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    height:100px;
+    display: inline-block;
+    background:transparent url('../images/rabbit.png') center top no-repeat;
+}
+
+.rabbit:hover {
+   background-image: url('../images/rabbit2.png');
+}
+
+.dragon {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    height:100px;
+    display: inline-block;
+    background:transparent url('../images/dragon.png') center top no-repeat;
+}
+
+.dragon:hover {
+   background-image: url('../images/dragon2.png');
+}
+
+.snake {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    height:100px;
+    display: inline-block;
+    background:transparent url('../images/snake.png') center top no-repeat;
+}
+
+.snake:hover {
+   background-image: url('../images/snake2.png');
+}
+
+.horse {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    height:100px;
+    display: inline-block;
+    background:transparent url('../images/horse.png') center top no-repeat;
+}
+
+.horse:hover {
+   background-image: url('../images/horse2.png');
+}
+
+.goat {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    height:100px;
+    display: inline-block;
+    background:transparent url('../images/goat.png') center top no-repeat;
+}
+
+.goat:hover {
+   background-image: url('../images/goat2.png');
+}
+
+.monkey {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    height:100px;
+    display: inline-block;
+    background:transparent url('../images/monkey.png') center top no-repeat;
+}
+
+.monkey:hover {
+   background-image: url('../images/monkey2.png');
+}
+
+.rooster {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    height:100px;
+    display: inline-block;
+    background:transparent url('../images/rooster.png') center top no-repeat;
+}
+
+.rooster:hover {
+   background-image: url('../images/rooster2.png');
+}
+
+.dog {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    height:100px;
+    display: inline-block;
+    background:transparent url('../images/dog.png') center top no-repeat;
+}
+
+.dog:hover {
+   background-image: url('../images/dog2.png');
+}
+
+.pig {
+    margin-left: 30px;
+    margin-bottom: 30px;
+    width: 100px;
+    height:100px;
+    display: inline-block;
+    background:transparent url('../images/pig.png') center top no-repeat;
+}
+
+.pig:hover {
+   background-image: url('../images/pig2.png');
+}
